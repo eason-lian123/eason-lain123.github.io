@@ -1,0 +1,32 @@
+theme = 'PaperMod'
+baseurl = "https://eason-lain123.github.io" 
+#設定主頁 url
+
+languageCode = "zh-tw" 
+#設定 Blog 語言
+
+title = "Whatever you want" 
+#設定網站標題
+
+buildDrafts = false 
+#是否產生草稿(建議選否)
+
+[[menu.main]]
+
+identifier = "archives"
+
+name = "Archives"
+
+url = "/archives/"
+
+weight = 30
+
+
+[params.profileMode]
+enabled = true
+title = "Enter the Content"
+subtitle = "Enter the Content"
+imageUrl = "img/name.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
